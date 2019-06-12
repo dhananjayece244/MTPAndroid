@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="22dp"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/title_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="22dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_weight="1"
+            android:text="Activity"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            android:text="Probability"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/bike"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/bike_title"
+            android:text="Bike"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:id="@+id/bike_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/car"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/car_title"
+            android:layout_weight="1"
+            android:text="Car"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/car_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/walking"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/walk_title"
+            android:text="Walk"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:id="@+id/walk_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/cycling"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/cycle_title"
+            android:text="Cycle"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:id="@+id/cycle_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/still"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/still_title"
+            android:text="Still"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView android:id="@+id/still_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+</TableLayout>
